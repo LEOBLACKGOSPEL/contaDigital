@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sua Cultura Digital</title>
+</head>
+
+<body>
+    service firebase.storage { match /b/{bucket}/o { match /{allPaths=**} { allow read, write: if request.auth != null; } } }
+    <div class="inicio">
+        <nav>
+            <ul class="nav justify-content-end">
+                <li id="nav-item1">
+                    <a class="nav-link active" href="#">HOME</a>
+                </li>
+                <li id="nav-item3">
+                    <a class="nav-link" href="/ebook.html">EBOOK</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="culturadigital">
+            <h2>Cultura Digital <br> TECNLOGIA</h2>
+        </div>
+        <div id="descricao">Um blog sobre negocios voltado
+            <br> para o publico Tecnologia
+        </div>
+    </div>
+    <div class="recebaebooks">
+        <h3>Receba os nossos e-books :</h3>
+        <div class="poptin-embedded" data-id="3a0dddb50aad9"></div>
+        <br>
+    </div>
+    <section class="flex-container">
+        <img src="img/foto-banner.jpg" srcset="img/foto-banner@2x.jpg 2x,
+             img/foto-banner@3x.jpg 3x" class="Foto-banner">
+        <a class="cardlink" href="\Artigos1.html">
+            <div class="card">
+                <img src="img/noticia-1.jpg" srcset="img/noticia-1@2x.jpg 2x,
+             img/noticia-1@3x.jpg 3x" class="Noticia-1">
+                <h6 class="card-text"> <b>5 dicas para transformar suas soluções digitais</b></h6>
+            </div>
+        </a>
+        <a class="cardlink" href="\Artigos.html">
+            <div class="card">
+                <img src="img/noticia-2.jpg" srcset="img/noticia-2@2x.jpg 2x,
+             img/noticia-2@3x.jpg 3x" class="Noticia-2">
+                <h6 class="card-text"><br>Title</br>
+                </h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                <p class="card-textdata"> Autor Yesterday 23:22</p>
+            </div>
+            </div>
+        </a>
+        <a class="cardlink" href="\Artigos.html">
+            <div class="card">
+                <img src="img/noticia-3.jpg" srcset="img/noticia-3@2x.jpg 2x,
+             img/noticia-3@3x.jpg 3x" class="Noticia-3">
+                <h6 class="card-text">Title</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-textdata"> Autor Yesterday 23:22</p>
+            </div>
+            </div>
+        </a>
+        <a class="cardlink" href="\Artigos.html">
+            <div class="card">
+                <img src="img/noticia-4.jpg" srcset="img/noticia-4@2x.jpg 2x,
+             img/noticia-4@3x.jpg 3x" class="Noticia-4">
+                <h6 class="card-text">Title</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-textdata"> Autor Yesterday 23:22</p>
+            </div>
+            </div>
+        </a>
+        <a class="cardlink" href="\Artigos.html">
+            <div class="card">
+                <img src="img/noticia-5.jpg" srcset="img/noticia-5@2x.jpg 2x,
+             img/noticia-5@3x.jpg 3x" class="Noticia-5">
+                <h6 class="card-text">Title</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-textdata"> Autor Yesterday 23:22</p>
+            </div>
+            </div>
+            </div>
+        </a>
+        <a class="cardlink" href="\Artigos.html">
+            <div class="card">
+                <img src="img/noticia-6.jpg" srcset="img/noticia-6@2x.jpg 2x,
+             img/noticia-6@3x.jpg 3x" class="Noticia-6">
+                <h6 class="card-text">Title</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-textdata"> Autor Yesterday 23:22</p>
+            </div>
+            </div>
+        </a>
+    </section>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyD8sCGSwx1346THwoJBsLW2PGTlohDRFlk",
+            authDomain: "sua-cultura-digital-44ae9.firebaseapp.com",
+            databaseURL: "https://sua-cultura-digital-44ae9.firebaseio.com",
+            projectId: "sua-cultura-digital-44ae9",
+            storageBucket: "sua-cultura-digital-44ae9.appspot.com",
+            messagingSenderId: "699403944142",
+            appId: "1:699403944142:web:8312798cdb08416efb909f",
+            measurementId: "G-48JEPVEQJR"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.2.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.2.0/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+</body>
+<footer>
+    <section id="content">
+        <article class="item">
+            <h4><b>Cultura Digital </b></h4>
+            <p> Tudo para seu conhecimento tecnológico</p>
+            <img src="img/ Foto-banner " width="100px" />
+            <p> </p>
+
+
+        </article>
+
+        <article class="item">
+
+            <h4><b>Navigation</b></h4>
+            <p> Page 1</p>
+            <p> Page 2</p>
+            <p> Page 3</p>
+            <p> Page 3</p>
+
+        </article>
+
+        <article class="item">
+
+            <h4><b>Links</b></h4>
+            <p> Page 1</p>
+            <p> Page 2</p>
+            <p> Page 3</p>
+            <p> Page 3</p>
+
+        </article>
+        <article class="item">
+
+            <h4><b>Follow Us</b></h4>
+            <p> <img src="img/facebook_logo.png" width="20px" /> <a href="https://www.facebook.com/suaculturadigital/" /> Facebook</a>
+            </p>
+            <p> <img src="img/Instagram_logo.png" width="20px" /> <a href="https://www.instagram.com/suaculturadigital/" /> Instagran</a>
+            </p>
+            <p>
+                <p> <img src="img/linkedin_logo.png" width="20px" /> <a href="https://www.linkedin.com/company/sua-cultura-digital//" /> linkedin</a>
+                </p>
+                <p> <b>Website <b/><p><a href="http://suaculturadigital.com/"/> suaculturadigital.com</a></p></p>
+      
+  </article>
+</section>
+     
+</footer>
+</html>
